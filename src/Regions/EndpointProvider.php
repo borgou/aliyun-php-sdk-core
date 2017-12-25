@@ -50,7 +50,7 @@ class EndpointProvider
     
     public static function getEndpoints()
     {
-        return self::$endpoints;
+        return EndpointConfig::getEndpoints();
     }
     
     public static function setEndpoints($endpoints)
