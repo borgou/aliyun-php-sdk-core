@@ -4,9 +4,9 @@
     "homepage": "https://github.com/borgou/aliyun-php-sdk-core",
     "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "\\":"src/"
-        }
+        "files": [
+            "src/Config.php"
+        ]
     },
     "authors": [
         {
