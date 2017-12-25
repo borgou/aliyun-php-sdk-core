@@ -1,0 +1,20 @@
+{
+    "name": "borgou/aliyun-php-sdk-core",
+    "type": "library",
+    "homepage": "https://github.com/borgou/aliyun-php-sdk-core",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "\\":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Borg Ou",
+            "email": "borgou@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    }
+}
